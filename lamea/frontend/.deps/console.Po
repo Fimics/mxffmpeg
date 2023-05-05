@@ -1,0 +1,145 @@
+console.o: console.c ../config.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include/stdlib.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdlib.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/alloca.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wait.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/wait.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/malloc.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stddef.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/__stddef_max_align_t.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdio.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stdint.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/stddef.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/posix_types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stdarg.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/struct_file.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/xlocale.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/string.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/strings.h \
+  console.h main.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/limits.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/limits.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/float.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/limits.h \
+  /Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h \
+  get_audio.h ../include/lame.h
+
+../config.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include/stdlib.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdlib.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/alloca.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wait.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/wait.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/malloc.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stddef.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/__stddef_max_align_t.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdio.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stdint.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdint.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/stddef.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/posix_types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/stdarg.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/struct_file.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/xlocale.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/string.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/strings.h:
+
+console.h:
+
+main.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/limits.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/limits.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include/float.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/limits.h:
+
+/Users/mac/soft/ndk22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h:
+
+get_audio.h:
+
+../include/lame.h:
